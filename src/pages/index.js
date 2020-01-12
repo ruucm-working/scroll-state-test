@@ -4,6 +4,7 @@ import SEO from '../components/seo'
 import * as System from '../../design-system'
 import InnerScroll from '../components/InnerScroll'
 import AnimComp from '../components/AnimComp'
+import AnimComp2 from '../components/AnimComp2'
 
 const IndexPage = () => {
   console.log('IndexPage!')
@@ -16,6 +17,7 @@ const IndexPage = () => {
 
       <InnerScroll />
       <AnimComp />
+      <AnimComp2 />
     </Layout>
   )
 }
